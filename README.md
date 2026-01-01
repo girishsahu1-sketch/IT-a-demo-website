@@ -1,2 +1,2 @@
-# IT-a-demo-website
+# demo
 IT a demo website
