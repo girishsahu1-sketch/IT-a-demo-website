@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Kumar Dubey - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">GIRISH KUMAR SAHU</div>
+        <ul class="nav-links">
+            <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Project Details</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <div class="profile-card">
+            <img src="WhatsApp Image 2025-12-31 at 14.21.24.jpeg" alt="Ayush Profile" class="profile-img">
+            <h1>About Me</h1>
+            <p class="bio">
+                Hello! I am Girish, a student passionate about building things for the web. 
+                I started my journey exploring HTML & CSS, and now I am diving deeper into JavaScript. 
+                This portfolio is a collection of my Academic Lab Records and Practical Assignments.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-brands fa-html5 skill-icon" style="color: #e34c26;"></i>
+                <p>HTML5</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt skill-icon" style="color: #264de4;"></i>
+                <p>CSS3</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js skill-icon" style="color: #f0db4f;"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-github skill-icon" style="color: #333;"></i>
+                <p>GitHub</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-terminal skill-icon" style="color: #000;"></i>
+                <p>Command Line</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Project Details</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>1. Personal Resume Site</h3>
+                <p>A static website built to showcase my resume using semantic HTML.</p>
+            </div>
+            <div class="project-item">
+                <h3>2. Temperature Converter</h3>
+                <p>A JavaScript utility to convert Celsius to Fahrenheit dynamically.</p>
+            </div>
+            <div class="project-item">
+                <h3>3. NALS Lab Manual</h3>
+                <p>A digital compilation of my lab records including posters and presentations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommendations" class="container">
+        <h2>Recommendations</h2>
+        <div id="rec-list" class="rec-container">
+            <div class="recommendation-card">"Girish is a fast learner and writes clean code." - Peer 1</div>
+            <div class="recommendation-card">"Great attention to detail on the UI design." - Peer 2</div>
+            <div class="recommendation-card">"Always submits assignments on time." - Faculty</div>
+        </div>
+
+        <div class="rec-form">
+            <h3>Leave a Recommendation</h3>
+            <textarea id="rec-input" placeholder="Write your message here..."></textarea>
+            <button onclick="addRecommendation()">Submit</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
